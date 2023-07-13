@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+	max-width:1100;
+	margin:0 auto;
+	padding:0 40px;
+	background-color: rgba(143,164,176,0.6);
+}
+
+.info_head{
+	height:100px;
+	background-color: powderblue;
+	text-align: center;
+	font-size: 50px;
+
+}
+
+.person{
+	max-width:1000;
+	height:300px;
+/*	border:2px solid black;*/
+}
+
+.right{
+/*	border:3px solid rgb(105, 105, 240);*/
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+
+.right_2{
+/*	border:3px solid rgb(105, 105, 240);*/
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+
+.person_img{
+	height:150px;
+	widht:200px;
+
+}
+
+.person_img img{
+	border-radius:20%;
+	height:150px;
+	widht:200px;
+}
+
+
+.left{
+/*	border:3px solid rgb(105, 105, 240);*/
+/*	position:relative;*/
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.left_2{
+/*	border:3px solid rgb(105, 105, 240);*/
+/*	position:relative;*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+table,th,td{
+	border:3px solid powderblue;
+	border-collapse: collapse;
+	padding:5px;
+}
+
+.grid{
+	display:grid;
+	grid-template-columns: repeat(2,1fr);
+}
